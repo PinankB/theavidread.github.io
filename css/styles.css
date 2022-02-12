@@ -56,6 +56,7 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+
 nav ul a {
   height: 40px;
   line-height: 43px;
@@ -69,6 +70,10 @@ nav ul a {
   letter-spacing: 1px;
   transition: 0.3s ease-in-out;
 }
+nav ul li a{
+  display: block;
+}
+
 nav ul li a:hover {
   border-radius: 2px;
   background-color: turquoise;

@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <section class="main">
@@ -31,6 +32,7 @@
           <li><a href="#" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="books.html">Books</a></li>
+          <li><a href="genere.html">Sort by Genere</a></li>
           <!-- <li><a href="publish.html">Publish</a></li> -->
         </ul>
       </nav>
@@ -131,35 +133,51 @@
         </div>
       </div>
     </section>
-    <!-- footer section  -->
-    <footer class="footer">
-      <div class="foot-container">
-        <div class="row">
-          <div class="footer-col">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="books.html">Books</a></li>
-            </ul>
+      <!-- footer section  -->
+      <footer class="footer">
+        <div class="foot-container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="books.html">Books</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>View Whole Collection</h4>
+              <ul>
+               <li> <a href="books.html">Check it</a></li>
+              </ul>
+            </div> 
+            <div class="footer-col">
+              <h4>Latest Books</h4>
+              <ul>
+               <li> <a href="wimpy-kid.html">Wimpy Kid</a></li>
+              </ul>
+              <ul>
+                <li> <a href="harry-potter.html">Harry Potter</a></li>
+               </ul>
+               <ul>
+                <li> <a href="books.html">Intelligent investor</a></li>
+               </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Sort By Genre</h4>
+              <ul>
+               <li> <a href="genere.html">Check it</a></li>
+              </ul>
+            </div>  
           </div>
-          <div class="footer-col">
-            <h4>View Whole Collection</h4>
-            <ul>
-             <li> <a href="books.html">Check it</a></li>
-            </ul>
-          </div> 
-          <div class="footer-col">
-            <h4>Latest Books</h4>
-            <ul>
-             <li> <a href="wimpy-kid.html">Wimpy Kid</a></li>
-            </ul>
-            <ul>
-              <li> <a href="harry-potter.html">Harry Potter</a></li>
-             </ul>
-          </div> 
         </div>
-      </div>
-    </footer>
+      </footer> -->
+    <script>
+      let click = document.querySelector('.click');
+      let list = document.querySelector('.list');
+      click.addEventListener("click",()=>{
+        list.classList.toggle('newlist');
+      });
+    </script>
   </body>
 </html>
