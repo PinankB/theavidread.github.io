@@ -333,7 +333,7 @@ ul {
   }
   nav .menu-icon .nav-icon:before,
   nav .menu-icon .nav-icon:after {
-    background: white;
+    background: black;
     content: "";
     display: block;
     height: 100%;
