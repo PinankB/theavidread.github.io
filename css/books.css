@@ -215,6 +215,12 @@ nav .menu-btn {
   height: 100vh;
 }
 
+.search-bar {
+  padding: 3px;
+  border-radius: 4px;
+  width: 300px;
+}
+
 /*********FOOTER**********/
 .foot-container {
   max-width: 1170px;
@@ -275,6 +281,14 @@ ul {
 @media (max-width: 1210px) {
   body {
     overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    background-image: url(../images/background.jpg);
+    box-sizing: border-box;
+    overflow: hidden;
   }
   nav {
     justify-content: space-between;
