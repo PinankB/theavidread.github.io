@@ -344,9 +344,11 @@ ul {
   }
   nav .menu-icon .nav-icon:before {
     top: 5px;
+    color: black;
   }
   nav .menu-icon .nav-icon:after {
     top: -5px;
+    color: black;
   }
   nav .menu-btn:checked ~ .menu-icon .nav-icon {
     background: transparent;
