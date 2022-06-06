@@ -147,8 +147,34 @@ nav .menu-btn {
   font-size: 20px;
   border-radius: 5px;
 }
-.header-btn:hover {
-  background-color: #5cfdb2;
+.header-btn-2{
+  width: 140px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #80e3b5;
+color: #10003d;
+box-shadow: 2px 2px 20px rgba(1, 141, 83, 8.514);
+text-transform: uppercase;
+transition: 0.3s ease-in-out;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 5px;
+margin-left: 45%;
+}
+.top{
+  text-align: center;
+}
+.headline-1{
+  box-sizing: border-box;
+color: white;
+}
+.headline{
+  position: relative;
+  min-height: 58vh;
+  width: 100%;
+  overflow: hidden;
 }
 /*********About Section**********/
 .about {
@@ -422,7 +448,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     margin: 0px;
-    padding: 35px;
+    padding: 25px;
     border: 1px solid #10003d;
   }
   nav .menu-icon {

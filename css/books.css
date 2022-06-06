@@ -140,21 +140,22 @@ nav .menu-btn {
   align-items: center;
   justify-content: center;
   padding-top: 40px;
-  height: 148vh;
+  height: 128vh;
 }
 .m-heading {
   text-align: center;
-  margin: 20px 0px;
+  margin: 74px 0px;
+    margin-bottom: 74px;
   margin-bottom: 33px;
 }
 .m-heading h1 {
-  color: #fff;
+  color: black;
   font-size: 3rem;
   margin: 0;
   padding: 0;
 }
 .m-heading p {
-  color: rgb(236, 236, 236);
+  color: black;
   font-size: 1rem;
   margin: 0;
   padding: 0;
@@ -167,7 +168,7 @@ nav .menu-btn {
 .movie-box {
   background-color: #fff;
   width: 285px;
-  height: 514px;
+  height: 374px;
   margin: 20px;
   overflow: hidden;
   border-radius: 10px;
@@ -176,15 +177,15 @@ nav .menu-btn {
   position: relative;
 }
 .small-p {
-  margin-bottom: -7px;
-  margin-top: 10px;
+  margin-bottom: 1px;
+  margin-top: 4px;
   padding: 0px 45px;
   color: black;
   text-align: center;
 }
 .movie-img {
   width: 100%;
-  height: 85%;
+  height: 81%;
 }
 .movie-img img {
   width: 100%;
@@ -333,7 +334,7 @@ ul {
   }
   nav .menu-icon .nav-icon:before,
   nav .menu-icon .nav-icon:after {
-    background: white;
+    background: black;
     content: "";
     display: block;
     height: 100%;
