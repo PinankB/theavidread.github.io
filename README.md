@@ -28,6 +28,5 @@
   <li>Clone the repo:
     <pre><code>git clone [https://github.com/yourusername/avid-read-web.git</code>](https://github.com/PinankB/theavidread.github.io.git)</pre>
   </li>
-  <li>Add your e-books to the <code>ebooks/</code> folder</li>
- 
+
 
