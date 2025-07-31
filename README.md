@@ -26,9 +26,8 @@
 <h2>🛠️ Usage</h2>
 <ol>
   <li>Clone the repo:
-    <pre><code>git clone https://github.com/yourusername/avid-read-web.git</code></pre>
+    <pre><code>git clone [https://github.com/yourusername/avid-read-web.git</code>](https://github.com/PinankB/theavidread.github.io.git)</pre>
   </li>
   <li>Add your e-books to the <code>ebooks/</code> folder</li>
-  <li>Customize as needed and open <code>index.html</code> in your browser (if applicable)</li>
-</ol>
+ 
 
