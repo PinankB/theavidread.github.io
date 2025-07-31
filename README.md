@@ -1,15 +1,34 @@
-# theavidread.github.io
+<h1>Avid Read Web 📚</h1>
 
+<p>A digital library web application designed to store, organize, and access your personal book collection directly through a GitHub repository.</p>
 
-👋 Hi, I’m @PinankB
-👀 I’m interested in ... Web development and startups
-🌱 I’m currently learning ... web development
-💞️ I’m looking to collaborate on ... startup or web devleopment part time / project
-📫 How to reach me ... pinankbhardwaj@gmail.com or 9882595555 (whatsapp number)
-This is my website "AVID READ"
+<hr />
 
-In this website you can get free E-books which are in the format of pdf and are very easily accessible. You can downoad these books and can enjoy it for free without any sort of subscription.
+<h2>📖 About</h2>
+<p>Avid Read Web allows users to manage a digital bookshelf with ease. The repository includes a sample collection of e-books for demonstration and sorting logic.</p>
 
-Many popular books like Harry Potter and Wimpy Kid and entrepreneurial and also educational books are available.
+<h2>🚀 Features</h2>
+<ul>
+  <li>Organize books by genre, author, or title</li>
+  <li>Store and preview e-books</li>
+  <li>Simple web-based interface (if UI exists)</li>
+  <li>GitHub-hosted, lightweight, and personal</li>
+</ul>
 
-Best of Luck and thank you for reading this
+<h2>📁 Structure</h2>
+<pre><code>📚 avid-read-web/
+├── ebooks/          # Sample e-books
+├── index.html       # Main webpage (if UI exists)
+├── styles/          # CSS styling (if used)
+└── README.md        # Project info
+</code></pre>
+
+<h2>🛠️ Usage</h2>
+<ol>
+  <li>Clone the repo:
+    <pre><code>git clone https://github.com/yourusername/avid-read-web.git</code></pre>
+  </li>
+  <li>Add your e-books to the <code>ebooks/</code> folder</li>
+  <li>Customize as needed and open <code>index.html</code> in your browser (if applicable)</li>
+</ol>
+
