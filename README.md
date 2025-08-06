@@ -18,8 +18,8 @@
 <h2>📁 Structure</h2>
 <pre><code>📚 avid-read-web/
 ├── ebooks/          # Sample e-books
-├── index.html       # Main webpage (if UI exists)
-├── styles/          # CSS styling (if used)
+├── index.html       # Main webpage 
+├── styles/          # CSS styling
 └── README.md        # Project info
 </code></pre>
 
